@@ -34,5 +34,3 @@ def update():
         camera.pan -=1                                                                        
 # Run the game
 app.run()
-
-
