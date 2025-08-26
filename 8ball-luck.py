@@ -17,10 +17,10 @@ while True:#loop to get the user's rating
     rate = input("Are you satisfied with your answer? (only Y or N): ") 
     if rate.lower() == "y":
      print("Good to hear that! ^_^ ")
+     print("Thank you for using the magic 8-ball. Have a nice day! :)")
      break
     elif rate.lower() == "n":
      print("Tuff luck lil bro. ")
      break
     else:
      print("you couldn't follow simple instructions, could you? smh...")
-print("Thank you for using the magic 8-ball. Have a nice day! :)")
