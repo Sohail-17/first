@@ -23,3 +23,4 @@ while True:#loop to get the user's rating
      break
     else:
      print("you couldn't follow simple instructions, could you? smh...")
+print("Thank you for using the magic 8-ball. Have a nice day! :)")
