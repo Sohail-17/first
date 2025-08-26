@@ -1,7 +1,7 @@
 import random
-que = input("Ask the magic 8-ball a question: ")
-ans = random.randint(1,6)
-if ans ==1:
+que = input("Ask the magic 8-ball a question: ") #asks a question to the user
+ans = random.randint(1,6)#generates a random number between 1 and 6
+if ans ==1: #different outputs for different results
     print("YAAAASSS!")
 elif ans == 2:
     print("Gotta work hardf broski.")
@@ -13,8 +13,8 @@ elif ans == 5:
     print("NAAAAAAAAAAAHH!")
 else:
     print("GET OUTTTTTA HEREEE!")
-while True:
-    rate = input("Are you satisfied with your answer? (only Y or N): ")
+while True:#loop to get the user's rating
+    rate = input("Are you satisfied with your answer? (only Y or N): ") 
     if rate.lower() == "y":
      print("Good to hear that! ^_^ ")
      break
